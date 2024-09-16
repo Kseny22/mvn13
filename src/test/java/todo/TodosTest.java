@@ -36,7 +36,7 @@ class TodosTest {
 
 
     @Test
-    public void fewTasksFoundTestOne2() {
+    public void fewTasksFoundTestOne() {
         SimpleTask simpleTask = new SimpleTask(5, "Хлеб домашний");
 
         String[] subtasks = { "Молоко", "Яйца", "Хлеб" };
@@ -60,7 +60,7 @@ class TodosTest {
         Assertions.assertArrayEquals(expected, actual);
     }
     @Test
-    public void fewTasksFoundTestTwo() {
+    public void fewTasksFoundTest() {
         SimpleTask simpleTask = new SimpleTask(5, "Хлеб домашний");
 
         String[] subtasks = { "Молоко", "Яйца", "Хлеб" };
@@ -84,7 +84,7 @@ class TodosTest {
         Assertions.assertArrayEquals(expected, actual);
     }
     @Test
-    public void test() {
+    public void fewTasksFoundTestTwo() {
         SimpleTask simpleTask = new SimpleTask(5, "Хлеб домашний");
 
         String[] subtasks = { "Молоко", "Яйца", "Хлеб" };
